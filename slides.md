@@ -23,15 +23,22 @@
 
 # GPC Pub/Sub
 <!-- .slide: style="text-align: left;"> -->
-"Pub/Sub allows services to communicate asynchronously, with latencies on the order of 100 milliseconds"<br>
-<font size="6"><a href="https://www.docker.com/resources/what-container">docker.com/resources/what-container</a></font>
+Cloud Pub/Sub is a fully managed real-time messaging service that allows you to send and receive messages between independent applications.
 
+"Pub/Sub allows services to communicate asynchronously, with latencies on the order of 100 milliseconds"<br>
+
+---
+
+# GPC Pub/Sub
+<!-- .slide: style="text-align: left;"> -->
+<p align="center">
+<img src="images/pubsub_diagram.png" />
+</p>
 ---
 
 ## Spring Batch
 <!-- .slide: style="text-align: left;"> -->
 "Containers isolate software from its environment and ensure that it works uniformly despite differences for instance between development and staging"<br>
-<font size="6"><a href="https://www.docker.com/resources/what-container">docker.com/resources/what-container</a></font>
 
 ---
 
