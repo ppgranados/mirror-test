@@ -32,24 +32,43 @@ Cloud Pub/Sub is a fully managed real-time messaging service that allows you to 
 # GPC Pub/Sub
 <!-- .slide: style="text-align: left;"> -->
 <p align="center">
-<img src="images/pubsub_diagram.png" width="449" height="422"/>
+<img src="images/pubsub_diagram.png" width="549" height="522"/>
 </p>
+
 ---
 
 ## Spring Batch
 <!-- .slide: style="text-align: left;"> -->
-"Containers isolate software from its environment and ensure that it works uniformly despite differences for instance between development and staging"<br>
+Framework to create batch processing applications, provides reusable functions that are essential in processing large volumes of records, including logging/tracing, transaction management, job processing statistics, job restart, skip, and resource management.
+
+Batch processing is used to process billions of transactions every day for enterprises.
+
+Features:
+- Transaction management
+- Chunk based processing
+- Declarative I/O
+- Start/Stop/Restart
+- Retry/Skip
+- Web based administration interface
 
 ---
 
-## Control Groups
+## Spring Batch key concepts
 <!-- .slide: style="text-align: left;"> -->
-Ensures a single container cannot consume all<br>
-resources of the host<br>
-<br>
-Implements resource limiting of:-
-- CPU
-- Memory
+
+- Jobs
+- Steps
+- Readers
+- Writers
+- Listeners
+
+---
+
+## Spring Batch key concepts
+<!-- .slide: style="text-align: left;"> -->
+<p align="center">
+<img src="images/spring-batch-reference-model.png" />
+</p>
 
 ---
 
@@ -69,14 +88,6 @@ Used to control:-<br>
 - Containers cannot see the entire host's filesystem<br>
 - They can only see a subset of that filesystem<br>
 - The container root directory is changed
-
----
-
-# Demo
-
----
-
-# Networking
 
 ---
 
@@ -108,27 +119,11 @@ Used to control:-<br>
 
 ---
 
-# Demo
-
----
-
-# Persisting data
-
----
-
 ## Options for persisting data
 <!-- .slide: style="text-align: left;"> -->
 - Bind mounts<br>
 - Data volume containers<br>
 - Named volumes
-
----
-
-# Demo
-
----
-
-# Custom images
 
 ---
 
@@ -161,14 +156,6 @@ CMD /opt/mssql/bin/sqlservr
 
 ---
 
-# Demo
-
----
-
-# Docker Compose
-
----
-
 ## Docker container run
 
 <pre><code data-line-numbers="1|2|3-8|9|10-13|14|15">docker run -d
@@ -196,10 +183,6 @@ mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-18.04
 With Compose, you use a YAML file to configure your application`s services.
 Then, with a single command, you create and start all the services from your configuration."<br>
 <font size="6"><a href="https://docs.docker.com/compose/">docs.docker.com/compose</a></font>
-
----
-
-# Demo
 
 ---
 
