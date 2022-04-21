@@ -117,6 +117,7 @@ Resources:
 <a href="https://cloud.google.com/pubsub/docs/spring">https://cloud.google.com/pubsub/docs/spring</a><br>
 <a href="https://spring.io/guides/gs/batch-processing/">https://spring.io/guides/gs/batch-processing/</a>
 </font>
-<p align="center">
+
+<div align="center">
 <img src="images/qr.png" />
-</p>
+</div>
