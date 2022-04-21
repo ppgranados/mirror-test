@@ -32,7 +32,7 @@ Cloud Pub/Sub is a fully managed real-time messaging service that allows you to 
 # GPC Pub/Sub
 <!-- .slide: style="text-align: left;"> -->
 <p align="center">
-<img src="images/pubsub_diagram.png" class="r-stretch"/>
+<img src="images/pubsub_diagram.png" width="449" height="422"/>
 </p>
 ---
 
