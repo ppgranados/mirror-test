@@ -108,16 +108,15 @@ Batch processing is used to process billions of transactions every day for enter
 
 ---
 
-## Resources
+## Thanks!
 <!-- .slide: style="text-align: left;"> -->
-Thanks!
+Resources:
 
 <font size="6">
 <a href="https://spring.io/guides/gs/messaging-gcp-pubsub">https://spring.io/guides/gs/messaging-gcp-pubsub</a><br>
 <a href="https://cloud.google.com/pubsub/docs/spring">https://cloud.google.com/pubsub/docs/spring</a><br>
 <a href="https://spring.io/guides/gs/batch-processing/">https://spring.io/guides/gs/batch-processing/</a>
 </font>
-
 <p align="center">
-<img src="images/dockerdeepdive_qr_code.png" />
+<img src="images/qr.png" />
 </p>
