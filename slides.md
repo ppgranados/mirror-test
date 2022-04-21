@@ -41,9 +41,13 @@ Cloud Pub/Sub is a fully managed real-time messaging service that allows you to 
 <!-- .slide: style="text-align: left;"> -->
 Framework to create batch processing applications, provides reusable functions that are essential in processing large volumes of records, including logging/tracing, transaction management, job processing statistics, job restart, skip, and resource management.
 
+<br>
 Batch processing is used to process billions of transactions every day for enterprises.
 
-Features:
+---
+
+## Spring Batch Features
+<!-- .slide: style="text-align: left;"> -->
 - Transaction management
 - Chunk based processing
 - Declarative I/O
